@@ -16,12 +16,12 @@ function ask() {
             message: "Guess a letter"
         }
     ]).then(function(response){
-        guessesLeft(response.letter);
+        guess(response.letter);
         if(!gameOver) {
             ask();
         }
-    })
-}
+    });
+};
 
 ask();
 
@@ -58,5 +58,5 @@ function guess(letter) {
     }
     else {
         console.log("You can only guess one letter at a time!\n");
-    }
-}
+    };
+};

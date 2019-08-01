@@ -10,7 +10,7 @@ function Letter(letter) {
         else {
             return this.letter;
         }
-    }
+    };
     
 
     this.checkGuess = function(guess) {
@@ -21,7 +21,7 @@ function Letter(letter) {
         else {
             return false;
         }
-    }
-}
+    };
+};
 
 module.exports = Letter;
