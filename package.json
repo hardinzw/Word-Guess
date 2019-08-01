@@ -1,0 +1,25 @@
+{
+  "name": "node-word-guess",
+  "version": "1.0.0",
+  "description": "node.js guessing game",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^6.5.0",
+    "prompt": "^1.0.0",
+    "random-words": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hardinzw/Word-Guess.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hardinzw/Word-Guess/issues"
+  },
+  "homepage": "https://github.com/hardinzw/Word-Guess#readme"
+}

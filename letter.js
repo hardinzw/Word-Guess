@@ -10,8 +10,8 @@ function Letter(letter) {
         else {
             return this.letter;
         }
-        console.log(getChar())
     }
+    
 
     this.checkGuess = function(guess) {
         if(guess === this.letter) {
